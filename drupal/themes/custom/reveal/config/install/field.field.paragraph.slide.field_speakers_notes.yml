@@ -1,0 +1,20 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_speakers_notes
+    - paragraphs.paragraphs_type.slide
+  module:
+    - text
+id: paragraph.slide.field_speakers_notes
+field_name: field_speakers_notes
+entity_type: paragraph
+bundle: slide
+label: 'Speakers notes'
+description: 'Speaker notes, display in the speakers window.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

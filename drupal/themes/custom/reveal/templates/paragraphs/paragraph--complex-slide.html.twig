@@ -1,0 +1,23 @@
+{% extends 'paragraph--default.html.twig' %}
+
+
+{#
+ This could have been pre-processed in but not too complicated to do here, note relies
+ on entity being available to get the node value directly (paragraph in this case).
+#}
+{% if paragraph.field_slide_background_colour.value %}
+  {% set attributes = attributes.setAttribute('data-background', paragraph.field_slide_background_colour.value) %}
+{% endif %}
+
+
+{% if paragraph.field_slide_transition.value %}
+  {% set attributes = attributes.setAttribute('data-transition', paragraph.field_slide_transition.value) %}
+{% endif %}
+
+{#
+ Now we have finished with the extra fields we can remove them from here to make the parent
+ template a bit simpler.
+#}
+{% set content = content|without('field_slide_background_image', 'field_slide_background_colour', 'field_slide_transition' ) %}
+
+

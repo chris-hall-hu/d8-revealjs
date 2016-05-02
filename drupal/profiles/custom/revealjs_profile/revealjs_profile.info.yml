@@ -1,0 +1,47 @@
+name: 'Revealjs profile'
+type: profile
+description: 'Install theme and modules for Revealjs presentations.'
+core: 8.x
+dependencies:
+  - node
+  - history
+  - block
+  - breakpoint
+  - ckeditor
+  - color
+  - config
+  - comment
+  - contextual
+  - contact
+  - devel
+  - menu_link_content
+  - datetime
+  - block_content
+  - quickedit
+  - editor
+  - fences
+  - help
+  - image
+  - menu_ui
+  - options
+  - path
+  - page_cache
+  - dynamic_page_cache
+  - taxonomy
+  - dblog
+  - search
+  - shortcut
+  - toolbar
+  - field_ui
+  - file
+  - rdf
+  - views
+  - views_ui
+  - tour
+  - automated_cron
+  - paragraphs
+themes:
+  - bartik
+  - seven
+  - blocky
+  - reveal
