@@ -1,0 +1,31 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.embedded_slides.field_slide_set
+    - paragraphs.paragraphs_type.embedded_slides
+  module:
+    - fences
+id: paragraph.embedded_slides.default
+targetEntityType: paragraph
+bundle: embedded_slides
+mode: default
+content:
+  field_slide_set:
+    weight: 0
+    label: hidden
+    settings:
+      view_mode: teaser
+      link: false
+    third_party_settings:
+      fences:
+        fences_field_tag: none
+        fences_field_classes: ''
+        fences_field_item_tag: none
+        fences_field_item_classes: ''
+        fences_label_tag: none
+        fences_label_classes: ''
+    type: entity_reference_entity_view
+hidden:
+  created: true
+  uid: true

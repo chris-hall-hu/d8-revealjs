@@ -5,8 +5,8 @@ dependencies:
     - entity_reference_revisions
     - node
     - paragraphs
-id: node.field_intro_slides
-field_name: field_intro_slides
+id: node.field_slides
+field_name: field_slides
 entity_type: node
 type: entity_reference_revisions
 settings:

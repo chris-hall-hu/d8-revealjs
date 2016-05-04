@@ -1,13 +1,11 @@
 langcode: en
 status: true
 dependencies:
-    config:
-        - field.storage.node.field_theme
-        - node.type.slideshow
-    module:
-        - options
-_core:
-    default_config_hash: qQ56T9HorfOxXONEDyOOmOSMNvl8jw9Blp2D63TByXU
+  config:
+    - field.storage.node.field_theme
+    - node.type.slideshow
+  module:
+    - options
 id: node.slideshow.field_theme
 field_name: field_theme
 entity_type: node
@@ -17,8 +15,8 @@ description: 'Select the Revealjs theme to use on the slideshow.'
 required: true
 translatable: false
 default_value:
-    -
-        value: reveal-theme-black
+  -
+    value: reveal-theme-black
 default_value_callback: ''
 settings: {  }
 field_type: list_string

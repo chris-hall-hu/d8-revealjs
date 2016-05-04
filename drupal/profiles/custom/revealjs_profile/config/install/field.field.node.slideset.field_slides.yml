@@ -2,15 +2,15 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_intro_slides
-    - node.type.slideshow
+    - field.storage.node.field_slides
+    - node.type.slideset
   module:
     - entity_reference_revisions
-id: node.slideshow.field_intro_slides
-field_name: field_intro_slides
+id: node.slideset.field_slides
+field_name: field_slides
 entity_type: node
-bundle: slideshow
-label: 'Intro slides'
+bundle: slideset
+label: Slides
 description: ''
 required: false
 translatable: false

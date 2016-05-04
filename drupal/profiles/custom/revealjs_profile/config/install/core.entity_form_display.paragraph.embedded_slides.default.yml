@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.embedded_slides.field_slide_set
+    - paragraphs.paragraphs_type.embedded_slides
+id: paragraph.embedded_slides.default
+targetEntityType: paragraph
+bundle: embedded_slides
+mode: default
+content:
+  field_slide_set:
+    weight: 0
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+hidden:
+  created: true
+  uid: true
