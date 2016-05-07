@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "b4bba6dd8368a1e77b386e29de6c2c26",
-    "content-hash": "56422878c3e1ec72c5c08220b3a76bae",
+    "hash": "239361002b8b955448336ff26b5ebe10",
+    "content-hash": "ad368d8471e167a7297960872009fe94",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -806,6 +806,40 @@
             ],
             "description": "Composer Plugin for updating the Drupal scaffold files when using drupal/core",
             "time": "2016-04-13 15:46:44"
+        },
+        {
+            "name": "drupal/ckeditor_loremipsum",
+            "version": "8.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/ckeditor_loremipsum.git",
+                "reference": "2ddfee2d13ae50578ae1d33773502e0d6e774446"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/ckeditor_loremipsum-8.x-1.1.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "drupal/core": "8.*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-8.x-1.x": "8.1.x-dev"
+                }
+            },
+            "notification-url": "https://packagist.drupal-composer.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "description": "This plugin allows to generate lorem ipsum sentence or paragraph easily.",
+            "homepage": "https://www.drupal.org/project/ckeditor_loremipsum",
+            "keywords": [
+                "Drupal"
+            ],
+            "time": "2016-03-21 09:25:08"
         },
         {
             "name": "drupal/console",
@@ -4800,7 +4834,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jcalderonzumba/gastonjs/zipball/21bebb8ca03eb0f93ec2f3fad61192fb079e2622",
+                "url": "https://api.github.com/repos/jcalderonzumba/gastonjs/zipball/4ff4a788d4995ae0d4b45fdcb1b76650e2eec72a",
                 "reference": "21bebb8ca03eb0f93ec2f3fad61192fb079e2622",
                 "shasum": ""
             },

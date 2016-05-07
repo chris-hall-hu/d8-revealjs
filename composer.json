@@ -25,7 +25,8 @@
         "drupal/fences": "8.2.x-dev",
         "drupal/paragraphs": "^8.1@RC",
         "drupal/devel": "dev-8.x-1.x",
-        "drupal/default_content": "^8.1@alpha"
+        "drupal/default_content": "^8.1@alpha",
+        "drupal/ckeditor_loremipsum": "^8.1"
     },
     "require-dev": {
         "behat/mink": "~1.6",
