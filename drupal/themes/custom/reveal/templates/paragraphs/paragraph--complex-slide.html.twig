@@ -1,14 +1,12 @@
 {% extends 'paragraph--default.html.twig' %}
 
-
 {#
  This could have been pre-processed in but not too complicated to do here, note relies
- on entity being available to get the node value directly (paragraph in this case).
+ on entity being available to get the field value directly (paragraph in this case).
 #}
 {% if paragraph.field_slide_background_colour.value %}
   {% set attributes = attributes.setAttribute('data-background', paragraph.field_slide_background_colour.value) %}
 {% endif %}
-
 
 {% if paragraph.field_slide_transition.value %}
   {% set attributes = attributes.setAttribute('data-transition', paragraph.field_slide_transition.value) %}
