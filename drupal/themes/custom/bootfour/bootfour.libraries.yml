@@ -1,0 +1,16 @@
+global-styling:
+  version: VERSION
+  css:
+    base:
+      css/custom.css: {}
+  dependencies:
+    - core/jquery
+
+bootstrap:
+  version: VERSION
+  css:
+    layout:
+      bootstrap/dist/css/bootstrap.min.css: {}
+  js:
+    bootstrap/dist/js/bootstrap.min.js: {}
+

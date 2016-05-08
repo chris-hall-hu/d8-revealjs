@@ -1,0 +1,10 @@
+name: bootfour
+type: theme
+description: A prototype Bootstrap 4 theme
+package: 'Bootfour'
+core: 8.x
+base theme: blocky
+
+libraries:
+  - bootfour/global-styling
+  - bootfour/bootstrap
