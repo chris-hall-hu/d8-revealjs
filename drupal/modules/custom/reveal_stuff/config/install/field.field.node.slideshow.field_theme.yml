@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_theme
+    - node.type.slideshow
+  module:
+    - options
+id: node.slideshow.field_theme
+field_name: field_theme
+entity_type: node
+bundle: slideshow
+label: Theme
+description: 'Select the Revealjs theme to use on the slideshow.'
+required: true
+translatable: false
+default_value:
+  -
+    value: reveal-theme-black
+default_value_callback: ''
+settings: {  }
+field_type: list_string
