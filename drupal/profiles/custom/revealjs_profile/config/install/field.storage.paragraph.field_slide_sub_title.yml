@@ -6,8 +6,10 @@ dependencies:
 id: paragraph.field_slide_sub_title
 field_name: field_slide_sub_title
 entity_type: paragraph
-type: string_long
+type: string
 settings:
+  max_length: 255
+  is_ascii: false
   case_sensitive: false
 module: core
 locked: false
