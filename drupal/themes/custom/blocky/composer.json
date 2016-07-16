@@ -1,0 +1,16 @@
+{
+  "name": "drupal/blocky",
+  "description": "A Drupal base theme that adds Twig blocks to some of the core Stable theme templates",
+  "type": "drupal-theme",
+  "license": "GPL-2.0+",
+  "keywords": ["drupal", "twig"],
+  "homepage": "https://www.drupal.org/sandbox/chris_hall_hu_cheng/2646294",
+  "minimum-stability": "dev",
+  "authors": [
+    {
+      "name": "Chris Hall",
+      "email": "chris@clockwork-language.co.uk"
+    }
+  ],
+  "require": { }
+}
