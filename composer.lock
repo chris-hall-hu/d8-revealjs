@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "239361002b8b955448336ff26b5ebe10",
-    "content-hash": "ad368d8471e167a7297960872009fe94",
+    "hash": "52db572f1f04de53e07d0175efba510a",
+    "content-hash": "6e463891ffadb1c9057f6aa3c4e43ab6",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -1171,6 +1171,33 @@
             "time": "2016-04-24 14:29:34"
         },
         {
+            "name": "drupal/devel_debug_log",
+            "version": "dev-8.x-1.x",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/devel_debug_log",
+                "reference": "c99c948db8b9f7cb0199d56f67f4d5a3ccc5c137"
+            },
+            "require": {
+                "drupal/core": "8.*",
+                "drupal/kint": "8.*",
+                "drupal/serialization": "8.*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-8.x-1.x": "8.1.x-dev"
+                }
+            },
+            "notification-url": "https://packagist.drupal-composer.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "description": "Stores debug information for an easier AJAX debugging.",
+            "homepage": "https://www.drupal.org/project/devel_debug_log",
+            "time": "2016-04-23 16:34:02"
+        },
+        {
             "name": "drupal/entity_reference_revisions",
             "version": "8.1.0-rc6",
             "source": {
@@ -1271,6 +1298,37 @@
             "description": "Implements the Paragraphs entity types, Entity Reference selection type and Entity Reference field widget.",
             "homepage": "https://www.drupal.org/project/paragraphs",
             "time": "2015-11-17 13:21:21"
+        },
+        {
+            "name": "drupal/search_kint",
+            "version": "8.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/search_kint.git",
+                "reference": "3ce4e8ed2bc5a67474cad3cdacf8fc7558469e0b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/search_kint-8.x-1.0.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "drupal/core": "8.*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-8.x-1.x": "8.1.x-dev"
+                }
+            },
+            "notification-url": "https://packagist.drupal-composer.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "description": "Allows searching through the kint dump",
+            "homepage": "https://www.drupal.org/project/search_kint",
+            "time": "2016-04-19 23:11:14"
         },
         {
             "name": "drush/drush",
@@ -5903,6 +5961,7 @@
         "drupal/paragraphs": 5,
         "drupal/devel": 20,
         "drupal/default_content": 15,
+        "drupal/devel_debug_log": 20,
         "jcalderonzumba/gastonjs": 20
     },
     "prefer-stable": true,
