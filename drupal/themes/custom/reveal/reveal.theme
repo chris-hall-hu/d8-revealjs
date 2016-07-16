@@ -52,6 +52,8 @@ function reveal_preprocess_node(array &$variables) {
     return;
   }
   
+  $field = $node->get('field_theme');
+  
   //Add appropriate library.
   if ($node->getType() == 'slideshow') {
     $theme = $node->get('field_theme')->getValue();
