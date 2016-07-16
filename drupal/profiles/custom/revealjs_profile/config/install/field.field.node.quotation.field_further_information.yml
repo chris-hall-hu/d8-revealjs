@@ -1,0 +1,21 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_further_information
+    - node.type.quotation
+  module:
+    - text
+id: node.quotation.field_further_information
+field_name: field_further_information
+entity_type: node
+bundle: quotation
+label: 'Further information'
+description: 'Further information about the quotation.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

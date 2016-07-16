@@ -14,6 +14,10 @@ dependencies:
   - contextual
   - contact
   - devel
+  - serialization
+  - devel_kint
+  - devel_debug_log
+  - search_kint
   - menu_link_content
   - datetime
   - block_content

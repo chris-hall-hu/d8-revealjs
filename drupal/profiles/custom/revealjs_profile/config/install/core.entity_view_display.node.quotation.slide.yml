@@ -1,0 +1,42 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.slide
+    - field.field.node.quotation.body
+    - field.field.node.quotation.field_citation
+    - field.field.node.quotation.field_further_information
+    - field.field.node.quotation.field_information_link
+    - node.type.quotation
+  module:
+    - text
+    - user
+id: node.quotation.slide
+targetEntityType: node
+bundle: quotation
+mode: slide
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+  field_citation:
+    weight: 1
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings:
+      fences:
+        fences_field_tag: none
+        fences_field_classes: ''
+        fences_field_item_tag: none
+        fences_field_item_classes: ''
+        fences_label_tag: none
+        fences_label_classes: ''
+    type: string
+hidden:
+  field_further_information: true
+  field_information_link: true
+  links: true
