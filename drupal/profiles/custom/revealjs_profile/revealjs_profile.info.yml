@@ -15,7 +15,7 @@ dependencies:
   - contact
   - devel
   - serialization
-  - devel_kint
+  - kint
   - devel_debug_log
   - search_kint
   - menu_link_content
