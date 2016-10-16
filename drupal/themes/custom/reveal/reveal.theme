@@ -30,6 +30,15 @@ function reveal_theme_suggestions_html_alter(array &$suggestions, array $variabl
 }
 
 /**
+ * Implements hook_theme_suggestions_HOOK_alter().
+ */
+function reveal_theme_suggestions_paragraph_alter(array &$suggestions, array $variables) {
+  ddl($variables);
+  ddl($suggestions);
+  return $suggestions;
+}
+
+/**
  * Implement hook_preprocess_HOOK().
  */
 function reveal_preprocess_paragraph(array &$variables) {
