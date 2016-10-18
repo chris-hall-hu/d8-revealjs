@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "f0080863cb8a667fa3cd1caa6d42e8b2",
-    "content-hash": "cd02f5b5eda8426103b1824e1da74144",
+    "hash": "4f81739fcb828d7562840d124f6b1991",
+    "content-hash": "4469524a967f9534960c57d7d434eb65",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -1640,6 +1640,65 @@
             "homepage": "https://www.drupal.org/project/fences",
             "support": {
                 "source": "http://cgit.drupalcode.org/fences"
+            }
+        },
+        {
+            "name": "drupal/field_group",
+            "version": "1.0.0-rc4",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/field_group",
+                "reference": "8.x-1.0-rc4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/field_group-8.x-1.0-rc4.zip",
+                "reference": null,
+                "shasum": "085ce08ad15e68837e8f8017f81eb3f7b33cb324"
+            },
+            "require": {
+                "drupal/core": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.0-rc4",
+                    "datestamp": "1449771240"
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Hydra",
+                    "homepage": "https://www.drupal.org/user/647364"
+                },
+                {
+                    "name": "Stalski",
+                    "homepage": "https://www.drupal.org/user/322618"
+                },
+                {
+                    "name": "jyve",
+                    "homepage": "https://www.drupal.org/user/591438"
+                },
+                {
+                    "name": "swentel",
+                    "homepage": "https://www.drupal.org/user/107403"
+                },
+                {
+                    "name": "zuuperman",
+                    "homepage": "https://www.drupal.org/user/361625"
+                }
+            ],
+            "description": "Provides the field_group module.",
+            "homepage": "https://www.drupal.org/project/field_group",
+            "support": {
+                "source": "http://cgit.drupalcode.org/field_group"
             }
         },
         {

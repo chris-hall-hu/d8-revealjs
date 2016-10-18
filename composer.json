@@ -28,7 +28,8 @@
         "drupal/default_content": "1.0.0-alpha3",
         "drupal/ckeditor_loremipsum": "1.1.0",
         "drupal/search_kint": "1.0.0",
-        "drupal/devel_debug_log": "1.0.0-beta1"
+        "drupal/devel_debug_log": "1.0.0-beta1",
+        "drupal/field_group": "1.0.0-rc4"
     },
     "require-dev": {
         "behat/mink": "~1.6",

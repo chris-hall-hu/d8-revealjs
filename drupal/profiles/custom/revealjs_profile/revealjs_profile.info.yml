@@ -17,6 +17,7 @@ dependencies:
   - serialization
   - kint
   - devel_debug_log
+  - field_group
   - search_kint
   - menu_link_content
   - datetime
