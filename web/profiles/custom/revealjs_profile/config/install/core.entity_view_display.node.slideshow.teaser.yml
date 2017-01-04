@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.slideshow.field_intro_slides
+    - field.field.node.slideshow.field_slides
+    - field.field.node.slideshow.field_theme
+    - node.type.slideshow
+  module:
+    - user
+id: node.slideshow.teaser
+targetEntityType: node
+bundle: slideshow
+mode: teaser
+content:
+  links:
+    weight: 100
+hidden:
+  field_intro_slides: true
+  field_slides: true
+  field_theme: true

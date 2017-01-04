@@ -1,0 +1,13 @@
+{% extends 'node.html.twig' %}
+
+{% block node %}
+  <section>
+      <section>
+          <h1>{{ label }}</h1>
+      </section>
+      {{ content.field_intro_slides }}
+  </section>
+  {{ content|without('field_intro_slides') }}
+{% endblock node %}
+
+

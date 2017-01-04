@@ -1,0 +1,21 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.quotation
+  module:
+    - text
+id: node.quotation.body
+field_name: body
+entity_type: node
+bundle: quotation
+label: Quotation
+description: 'The actual quotation, quote marks are not required.'
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+field_type: text_with_summary

@@ -1,0 +1,9 @@
+name: Reveal
+type: theme
+description: A theme designed to display revealjs slides
+core: 8.x
+package: 'Reveal'
+base theme: blocky
+hidden: false
+libraries:
+  - reveal/global-styling

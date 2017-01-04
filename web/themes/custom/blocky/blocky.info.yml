@@ -1,0 +1,7 @@
+name: Blocky
+type: theme
+description: A base theme based on Stable with Twig block markup added.
+package: Core
+core: 8.x
+base theme: stable
+hidden: false
